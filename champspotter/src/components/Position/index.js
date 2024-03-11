@@ -11,6 +11,7 @@ const Position = (props) => {
       <div className="positions">
         {props.champions.map((champ) => (
           <Champ
+            primaryColor={props.primaryColor}
             rangeType={champ.rangeType}
             championClass={champ.championClass}
             image={champ.image}

@@ -2,6 +2,7 @@ import Banner from "./components/Banner";
 import Position from "./components/Position";
 import Form from "./components/Form";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const positions = [
@@ -49,6 +50,7 @@ function App() {
           champions={champions.filter(champion => champion.position === position.name)}
         />
       ))}
+      <Footer/>
     </div>
   );
 }

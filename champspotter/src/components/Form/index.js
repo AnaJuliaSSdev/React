@@ -32,6 +32,12 @@ const Form = (props) => {
       rangeType, 
       championClass
     })
+
+    setName('');
+    setImage('');
+    setPosition('');
+    setRangeType('');
+    setChampionClass('');
   };
 
   return (
@@ -70,7 +76,7 @@ const Form = (props) => {
           onEdit={(value) => setRangeType(value)}
           value={rangeType}
           required={true}
-          label="rangeTypes"
+          label="Range types"
           itens={rangeTypes}
         />
         <Button>Create Card</Button>

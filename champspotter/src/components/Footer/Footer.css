@@ -1,0 +1,25 @@
+.footerc {
+    background: #3C3C41;
+    color: #FFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerc ul li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.footerc ul li:last-child {
+    margin-right: 0;
+}
+
+.images {
+    max-height: 10vh;
+}
+
+.riot {
+    border-radius: 50%;
+}
