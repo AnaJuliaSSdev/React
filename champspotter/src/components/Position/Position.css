@@ -1,0 +1,22 @@
+.position {
+    text-align: center;
+    padding: 32px;
+}
+.position h3 {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px; 
+}
+
+.position .positions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+/* cores top: escuro- #DF7401 claro -#F3E2A9 intermediario: -#FF8000 */
+/*cores mid: escuro - #8904B1 intermediaio- #BF00FF claro - #DA81F5*/
+/*cores jungle: escuro - #0B610B intermediario- #04B404 claro: #00FF40*/
+/*cores bot: escuro - #0B0B61 intermediario: #0404B4 claro: #819FF7 */
